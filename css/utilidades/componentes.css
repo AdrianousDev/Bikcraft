@@ -8,6 +8,7 @@
 }
 
 .btn {
+  max-width: max-content;
   display: inline-block;
   padding: 16px 32px;
   background: linear-gradient(#ffbf00, #f2a50c);
@@ -20,6 +21,15 @@
 
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.btn.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.btn.secundario:hover {
+  background: var(--cor-9);
 }
 
 @media (max-width: 600px) {
