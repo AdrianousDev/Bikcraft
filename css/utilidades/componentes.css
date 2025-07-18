@@ -17,6 +17,8 @@
   text-transform: uppercase;
   color: var(--cor-p5);
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
