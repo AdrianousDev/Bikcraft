@@ -5,8 +5,8 @@ $senha = ""; // minha senha
 
 // não deixar esse arquivo e nem a biblioteca expostas. (se o script estiver em algum projeto lançado na web)
 
-$smtp = "smtp.titan.email"; //hostgator
-$porta = 465; //hostgator
+$smtp = "smtp.titan.email"; //para hostgator
+$porta = 465; //para hostgator
 
 $body = "";
 foreach($_POST as $label => $value) {
