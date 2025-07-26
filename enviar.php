@@ -3,7 +3,7 @@
 $email = ""; // meu email
 $senha = ""; // minha senha
 
-// não deixar esse arquivo e nem a biblioteca expostas.
+// não deixar esse arquivo e nem a biblioteca expostas. (se o script estiver em algum projeto lançado na web)
 
 $smtp = "smtp.titan.email"; //hostgator
 $porta = 465; //hostgator
